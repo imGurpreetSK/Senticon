@@ -53,7 +53,7 @@
 
 .center {
     margin: 0 auto;
-    width: 80%/* value of your choice which suits your alignment */
+    width: 80% 
 }
 
 .submit_button {
@@ -62,5 +62,6 @@
 
 .center_button {
     margin: 0 auto;
-    width: 30%
+    width: 30%;
+    margin-top: 20px;
 }
