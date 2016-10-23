@@ -46,9 +46,21 @@
     font-size: 13px;
 }
 
-input {
-    text-align: center;
-    align-content: center;
-    align-self: flex-end;
-    width: inherit;
+.input_field {
+    margin: 40px 10px 20px 10px;
+    width: 500px;
+}
+
+.center {
+    margin: 0 auto;
+    width: 80%/* value of your choice which suits your alignment */
+}
+
+.submit_button {
+    margin: 10px 10px 10px 10px;
+}
+
+.center_button {
+    margin: 0 auto;
+    width: 30%
 }

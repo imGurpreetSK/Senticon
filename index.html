@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.teal-red.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <style>
         #view-source {
@@ -48,20 +49,10 @@
                 <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
                     <h3 style="text-align: center">Welcome to Senticon</h3>
                     <h6 style="text-align: center"><\This is a dev version, please provide feedback\></h6>
-                    <table>
-                        <tbody>
-                            <th> 
-<!--                                <input type="text" id="unanalysed_text_input" placeholder="Input data here" autocomplete="on" /> -->
-                            </th>
-                            <th>
-                                <input type="text" id="unanalysed_text_input" placeholder="Input data here" autocomplete="on" /> 
-                                <input type="submit" id="submit_button"/>
-                            </th>
-                            <th> 
-<!--                                <input type="text" id="unanalysed_text_input" placeholder="Input data here" autocomplete="on" /> -->
-                            </th>
-                        </tbody>
-                    </table>
+
+                    <textarea rows="3" class="center form-control col input_field" style="margin-top: 60px;" id="unanalysed_text_input" placeholder="Input data here" autocomplete="on" required></textarea>
+                    <button class="btn btn-info btn-block center_button" style="margin-top:20px; padding-left:80px; padding-right:80px;">Submit</button>
+
                 </div>
             </div>
         </main>
